@@ -2,8 +2,9 @@
   "name": "jax-theme",
   "displayName": "jax theme",
   "description": "My personal theme :3",
-  "version": "0.0.1",
-    "repository": "https://github.com/akiya-7/jax-theme",
+  "publisher": "akiya",
+  "version": "1.0.0",
+  "repository": "https://github.com/akiya-7/jax-theme",
   "engines": {
     "vscode": "^1.106.1"
   },
@@ -18,5 +19,12 @@
         "path": "./themes/jax-theme-color-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "test": "vsce package --yarn --no-dependencies",
+    "deploy": "vsce publish --yarn"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.7.0"
   }
 }
