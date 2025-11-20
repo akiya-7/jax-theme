@@ -1,0 +1,21 @@
+{
+  "name": "jax-theme",
+  "displayName": "jax theme",
+  "description": "My personal theme :3",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.106.1"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "jax theme",
+        "uiTheme": "vs",
+        "path": "./themes/jax-theme-color-theme.json"
+      }
+    ]
+  }
+}
