@@ -21,6 +21,9 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: 18.x
+        cache: yarn
+    - run: yarn install --frozen-lockfile
+    - run: xvfb-run -a yarn test
         
     - name: Install xvfb
       if: runner.os == 'Linux'
