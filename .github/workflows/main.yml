@@ -12,15 +12,30 @@ jobs:
       matrix:
         os: [macos-latest, ubuntu-latest, windows-latest]
     runs-on: ${{ matrix.os }}
+    
     steps:
     - name: Checkout
       uses: actions/checkout@v4
+      
     - name: Install Node.js
       uses: actions/setup-node@v4
       with:
         node-version: 18.x
-    - run: npm install
-    - run: xvfb-run -a npm test
+        
+    - name: Install xvfb
       if: runner.os == 'Linux'
-    - run: npm test
+      run: sudo apt-get install -y xvfb
+
+    - name: Test (Linux)
+      if: runner.os == 'Linux'
+      run: xvfb-run -a npm test
+
+    - name: Test (non-Linux)
       if: runner.os != 'Linux'
+      run: npm test
+      
+    - name: Publish
+      if: success() && startsWith(github.ref, 'refs/tags/') && matrix.os == 'ubuntu-latest'
+      run: npm run deploy
+      env:
+        VSCE_PAT: ${{ secrets.VSCE_PAT }}
