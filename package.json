@@ -3,6 +3,7 @@
   "displayName": "jax theme",
   "description": "My personal theme :3",
   "version": "0.0.1",
+    "repository": "https://github.com/akiya-7/jax-theme",
   "engines": {
     "vscode": "^1.106.1"
   },
