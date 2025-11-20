@@ -21,8 +21,9 @@
     ]
   },
   "scripts": {
-    "test": "vsce package --yarn --no-dependencies",
-    "deploy": "vsce publish --yarn"
+    "test": "vsce package --no-dependencies",
+    "deploy": "vsce publish",
+    "build": "echo 'nothing to build'"
   },
   "devDependencies": {
     "@vscode/vsce": "^3.7.0"
