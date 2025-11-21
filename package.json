@@ -4,7 +4,7 @@
   "description": "My personal theme :3",
   "publisher": "akiya",
   "icon": "images/jax-theme-icon.png",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "repository": "https://github.com/akiya-7/jax-theme",
   "engines": {
     "vscode": "^1.106.1"
