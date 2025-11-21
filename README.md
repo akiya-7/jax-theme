@@ -1,16 +1,12 @@
-# jax-theme README
+# jax-theme
 
-## Working with Markdown
+hello! i'm jax and this is my personal vs-code theme!
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+the theme colours are based on the following:
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+- [green earth](https://addons.mozilla.org/en-US/firefox/addon/green-earth/) - a firefox theme by Rhea
+- [obsidian-typewriter](https://github.com/crashmoney/obsidian-typewriter) - an obsidian theme by [crashmoney](https://github.com/crashmoney)
 
-## For more information
+dark themes are nice, but sometimes it can get a little depressing :( 
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+hopefully this theme makes you feel cozy and at home! <3
