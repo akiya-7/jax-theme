@@ -3,7 +3,7 @@
   "displayName": "jax theme",
   "description": "My personal theme :3",
   "publisher": "akiya",
-  "icon": "jax-theme-icon.png",
+  "icon": "images/jax-theme-icon.png",
   "version": "1.0.2",
   "repository": "https://github.com/akiya-7/jax-theme",
   "engines": {

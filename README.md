@@ -2,6 +2,8 @@
 
 hello! i'm jax and this is my personal vs-code theme!
 
+![example_image](images/example_2.png)
+
 the theme colours are based on the following:
 
 - [green earth](https://addons.mozilla.org/en-US/firefox/addon/green-earth/) - a firefox theme by Rhea
